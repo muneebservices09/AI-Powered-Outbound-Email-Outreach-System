@@ -269,3 +269,9 @@ The final system connects the complete outbound process:
 **Apollo Lead Generation → Data Processing → Airtable Backend Database → Attio CRM → Smartlead Email Outreach → Follow-Ups → Reply Processing → AI Classification → CRM Updates & Sales Routing**
 
 This creates a centralized and scalable **B2B Outbound Lead Generation and GTM Automation System**.
+
+---
+
+## ✍️ Author
+**Muneeb Ali Khan**
+- **LinkedIn:** [Muneeb Ali Khan](https://www.linkedin.com/in/muneeb-ali-khan-2a1675365)
