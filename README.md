@@ -28,16 +28,19 @@ This project is a **B2B Outbound Lead Generation and Email Outreach Automation S
 
 ## 📊 Campaign Analytics & Performance
 
-The outbound email campaigns are monitored through **Smartlead Analytics**, providing visibility into campaign engagement, replies, deliverability, and campaign progress.
+The outbound email campaigns are monitored through **Smartlead Analytics**, providing visibility into campaign engagement, replies, deliverability, bounce rates, and campaign progress.
 
-Based on the campaign analytics:
+Based on the campaign analytics shown below:
 
-* **📈 65.85% Email Open Rate**
-* **💬 1.09% Reply Rate**
-* **🚫 0.8% Bounce Rate**
+- **📈 65.85% Email Open Rate**
+- **💬 1.09% Reply Rate**
+- **🚫 0.8% Bounce Rate**
+- **📧 278 Total Leads Contacted**
+- **📨 322 Total Opens**
+- **💬 3 Unique Replies**
 
 <div align="center">
-  <img src="YOUR_GITHUB_IMAGE_URL_3" width="100%" alt="Smartlead Campaign Analytics"/>
+  <img src="https://raw.githubusercontent.com/muneebservices09/AI-Powered-Outbound-Email-Outreach-System/main/smartlead.jpeg" width="100%" alt="Smartlead Campaign Analytics"/>
 </div>
 
 ---
@@ -48,21 +51,21 @@ This project was designed as a connected **Go-To-Market (GTM) automation system*
 
 Key technical components include:
 
-* **Automated Lead Generation:** Extracts targeted companies and decision-makers based on ICP requirements.
-* **Data Cleaning & Standardization:** Processes and structures incoming lead data.
-* **Duplicate Detection:** Prevents duplicate contacts from being processed.
-* **Airtable Backend Database:** Stores and manages automation data.
-* **Attio CRM Integration:** Manages prospect records, lead statuses, and sales activities.
-* **Smartlead Campaign Automation:** Manages outbound email campaigns and follow-ups.
-* **Webhook-Based Reply Processing:** Captures prospect replies and campaign events.
-* **AI Reply Classification:** Analyzes replies and determines the appropriate next action.
-* **Automated Sales Routing:** Updates lead status and routes prospects based on their responses.
+- **Automated Lead Generation:** Extracts targeted companies and decision-makers based on ICP requirements.
+- **Data Cleaning & Standardization:** Processes and structures incoming lead data.
+- **Duplicate Detection:** Prevents duplicate contacts from being processed.
+- **Airtable Backend Database:** Stores and manages automation data.
+- **Attio CRM Integration:** Manages prospect records, lead statuses, and sales activities.
+- **Smartlead Campaign Automation:** Manages outbound email campaigns and follow-ups.
+- **Webhook-Based Reply Processing:** Captures prospect replies and campaign events.
+- **AI Reply Classification:** Analyzes replies and determines the appropriate next action.
+- **Automated Sales Routing:** Updates lead status and routes prospects based on their responses.
 
 ---
 
-## 📝 The System Workflow
+# 📝 The System Workflow
 
-### 1️⃣ ICP Targeting & Lead Generation
+## 1️⃣ ICP Targeting & Lead Generation
 
 The workflow begins by identifying companies and decision-makers that match the defined **Ideal Customer Profile (ICP)**.
 
@@ -77,12 +80,12 @@ The workflow begins by identifying companies and decision-makers that match the 
 - Target market
 
 <div align="center">
-  <img src="YOUR_GITHUB_IMAGE_URL_1" width="100%" alt="Lead Generation Workflow"/>
+  <img src="https://raw.githubusercontent.com/muneebservices09/AI-Powered-Outbound-Email-Outreach-System/main/n8n%201.jpeg" width="100%" alt="n8n Lead Generation Workflow"/>
 </div>
 
 ---
 
-### 2️⃣ Lead Data Cleaning & Standardization
+## 2️⃣ Lead Data Cleaning & Standardization
 
 After lead extraction, incoming data is processed before moving into the rest of the automation system.
 
@@ -98,7 +101,7 @@ This ensures that lead information remains structured across all connected platf
 
 ---
 
-### 3️⃣ Duplicate Detection & Validation
+## 3️⃣ Duplicate Detection & Validation
 
 The system checks incoming leads against existing records to identify:
 
@@ -111,7 +114,7 @@ This helps prevent duplicate data and unnecessary duplicate outreach.
 
 ---
 
-### 4️⃣ Airtable Backend Database
+## 4️⃣ Airtable Backend Database
 
 **Airtable** serves as the backend database and data management layer of the system.
 
@@ -125,7 +128,7 @@ It stores and manages:
 
 ---
 
-### 5️⃣ Attio CRM Management
+## 5️⃣ Attio CRM Management
 
 Relevant prospects are synchronized with **Attio**, which manages the CRM and sales lifecycle.
 
@@ -139,13 +142,11 @@ Attio manages:
 - Prospect information
 - Follow-up activities
 
-<div align="center">
-  <img src="YOUR_GITHUB_IMAGE_URL_2" width="100%" alt="CRM and Automation Workflow"/>
-</div>
+The automation workflow continuously processes and updates lead information across the connected systems.
 
 ---
 
-### 6️⃣ Smartlead Campaign Onboarding
+## 6️⃣ Smartlead Campaign Onboarding
 
 Qualified leads are prepared for outbound email campaigns through **Smartlead**.
 
@@ -162,7 +163,7 @@ The automation connects the lead generation process directly with the outbound c
 
 ---
 
-### 7️⃣ Automated Email Outreach & Follow-Ups
+## 7️⃣ Automated Email Outreach & Follow-Ups
 
 The outreach system uses structured multi-step email sequences:
 
@@ -172,9 +173,9 @@ Smartlead manages campaign activity while the automation workflow monitors and p
 
 ---
 
-### 8️⃣ Smartlead Reply Processing
+## 8️⃣ Smartlead Reply Processing
 
-When a prospect replies, the reply is captured through the automation workflow using webhooks.
+When a prospect replies, the reply is captured through the automation workflow using **webhooks**.
 
 The system processes information such as:
 
@@ -188,7 +189,7 @@ The reply is then passed into the AI processing workflow.
 
 ---
 
-### 9️⃣ AI Reply Classification
+## 9️⃣ AI Reply Classification
 
 AI-powered automation analyzes prospect replies and determines their intent.
 
@@ -206,7 +207,7 @@ This reduces the manual effort required to read and categorize prospect response
 
 ---
 
-### 🔟 Automated CRM Updates & Sales Routing
+## 🔟 Automated CRM Updates & Sales Routing
 
 Based on reply classification and lead activity, the automation updates the prospect's information and status in **Attio CRM**.
 
@@ -219,31 +220,35 @@ Possible outcomes include:
 - ❌ **Lost**
 - 🚫 **DNC / Suppressed**
 
----
-
-## 🧠 Core Technical Pillars
-
-* **🎯 ICP-Based Lead Generation:** Targeted companies and decision-makers are identified based on defined ICP requirements.
-
-* **🧹 Automated Data Processing:** Lead data is cleaned, standardized, and structured automatically.
-
-* **🔍 Duplicate Detection:** Existing contacts are identified to prevent duplicate processing.
-
-* **🗄️ Airtable Backend Database:** Provides data storage and persistence for automation workflows.
-
-* **👥 Attio CRM Integration:** Manages prospect records, lead statuses, and sales activities.
-
-* **📧 Smartlead Email Outreach:** Manages multi-step campaigns and automated follow-ups.
-
-* **🪝 Webhook Architecture:** Captures replies and campaign events for automated processing.
-
-* **🤖 AI Reply Classification:** Automatically analyzes prospect responses and determines the next action.
-
-* **📊 Campaign Analytics:** Tracks engagement, replies, bounce rates, and campaign progress.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/muneebservices09/AI-Powered-Outbound-Email-Outreach-System/main/n8n%202.jpeg" width="100%" alt="n8n Reply Processing and CRM Automation Workflow"/>
+</div>
 
 ---
 
-## 🛠️ Technical Stack
+# 🧠 Core Technical Pillars
+
+- **🎯 ICP-Based Lead Generation:** Targeted companies and decision-makers are identified based on defined ICP requirements.
+
+- **🧹 Automated Data Processing:** Lead data is cleaned, standardized, and structured automatically.
+
+- **🔍 Duplicate Detection:** Existing contacts are identified to prevent duplicate processing.
+
+- **🗄️ Airtable Backend Database:** Provides data storage and persistence for automation workflows.
+
+- **👥 Attio CRM Integration:** Manages prospect records, lead statuses, and sales activities.
+
+- **📧 Smartlead Email Outreach:** Manages multi-step campaigns and automated follow-ups.
+
+- **🪝 Webhook Architecture:** Captures replies and campaign events for automated processing.
+
+- **🤖 AI Reply Classification:** Automatically analyzes prospect responses and determines the next action.
+
+- **📊 Campaign Analytics:** Tracks engagement, replies, bounce rates, and campaign progress.
+
+---
+
+# 🛠️ Technical Stack
 
 | Layer | Technology |
 | :--- | :--- |
@@ -258,11 +263,9 @@ Possible outcomes include:
 | **🔗 Integrations** | **REST APIs** |
 | **📊 Campaign Analytics** | **Smartlead Analytics** |
 
-
-
 ---
 
-## 🚀 Key Result
+# 🚀 Key Result
 
 The final system connects the complete outbound process:
 
@@ -273,5 +276,7 @@ This creates a centralized and scalable **B2B Outbound Lead Generation and GTM A
 ---
 
 ## ✍️ Author
+
 **Muneeb Ali Khan**
+
 - **LinkedIn:** [Muneeb Ali Khan](https://www.linkedin.com/in/muneeb-ali-khan-2a1675365)
