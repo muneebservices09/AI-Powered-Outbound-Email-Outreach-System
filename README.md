@@ -25,23 +25,21 @@ This project is a **B2B Outbound Lead Generation and Email Outreach Automation S
 **Attio** manages **CRM records, lead statuses, and sales activities**, while **Airtable** serves as the **backend database and data management layer**. All platforms are connected through automated **n8n workflows**.
 
 ---
-
 ## 📊 Campaign Analytics & Performance
 
-The outbound email campaigns are monitored through **Smartlead Analytics**, providing visibility into campaign engagement, replies, deliverability, bounce rates, and campaign progress.
+The following metrics illustrate an example outbound email campaign tracked through **Smartlead Analytics**. The dashboard provides insights into email engagement, prospect replies, deliverability, and campaign progress.
 
-Based on the campaign analytics shown below:
+### 📈 Sample Campaign Performance
 
-- **📈 65.85% Email Open Rate**
-- **💬 1.09% Reply Rate**
-- **🚫 0.8% Bounce Rate**
-- **📧 278 Total Leads Contacted**
-- **📨 322 Total Opens**
-- **💬 3 Unique Replies**
+- **📧 Email Open Rate:** 65.85%
+- **💬 Reply Rate:** 1.09%
+- **🚫 Bounce Rate:** 0.8%
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/muneebservices09/AI-Powered-Outbound-Email-Outreach-System/main/smartlead.jpeg" width="100%" alt="Smartlead Campaign Analytics"/>
+  <img src="https://raw.githubusercontent.com/muneebservices09/AI-Powered-Outbound-Email-Outreach-System/main/smartlead.jpeg" width="100%" alt="Example Smartlead Campaign Analytics"/>
 </div>
+
+<sub>Note: These figures represent a sample campaign snapshot for demonstration purposes. Actual campaign performance may vary depending on targeting, lead quality, email deliverability, and outreach strategy.</sub>
 
 ---
 
